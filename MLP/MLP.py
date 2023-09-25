@@ -71,3 +71,5 @@ prediction = np.argmax(model.predict(test_feature_normalize),axis=1)
 
 show_image(test_feature[0])
 print (test_label[0],prediction[0])
+
+model.save('Minist_mlp_model.h5')
