@@ -50,6 +50,14 @@ model = Sequential()
 
 model.add(Dense (units= 256, input_dim=784,kernel_initializer='normal',activation= 'relu'))
 
+model.add(Dropout(0.2))
+
+###second hidden laryer ######
+
+model.add(Dense(units=128,kernel_initializer='normail',activation='relu'))
+
+model.add(Dropout(0.2))
+
 ### create output layer ###############
 
 model.add(Dense (units = 10 , kernel_initializer='normal', activation= 'softmax'))
@@ -72,4 +80,4 @@ prediction = np.argmax(model.predict(test_feature_normalize),axis=1)
 show_image(test_feature[0])
 print (test_label[0],prediction[0])
 
-model.save('Minist_mlp_model.h5')
+model.save('Mnist_mlp_model.h5')
