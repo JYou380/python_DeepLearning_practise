@@ -1,4 +1,4 @@
-# python_ML_DL
+# python_DL_practise
 These github was store the practise the machine learning and deep learning programing
 
 CNN : practise the CNN with CATs & DOGs classifier. 
