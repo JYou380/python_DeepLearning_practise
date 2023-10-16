@@ -1,12 +1,12 @@
 # python_ML_DL
-These github was store the practice the machine learning and deep learning programing
+These github was store the practise the machine learning and deep learning programing
 
-CNN : practice the CNN with CATs & DOGs classifier. 
+CNN : practise the CNN with CATs & DOGs classifier. 
 
-NLP : practice NLP with jieba and wordcloud.
+NLP : practise NLP with jieba and wordcloud.
 
-RNN : practice RNN with predict exchange rate.
+RNN : practise RNN with predict exchange rate.
 
-MLP : practice basic MLP and Deep learning knowledge
+MLP : practise basic MLP and Deep learning knowledge
 
 Stock_predict : predict stock price with twstock and RNN model.
